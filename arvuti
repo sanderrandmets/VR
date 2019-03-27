@@ -1,0 +1,4 @@
+<a-box position="-4 1.5 -2.2" rotation="0 90 0" color="black" depth="0.5" width="0.9" height="1"></a-box>  
+       <a-cylinder position="-4 1.5 -1.79" rotation="0 90 90" radius="0.01" height="0.1" color="red" shadow></a-cylinder>
+        <a-cylinder position="-4 1.47 -1.79" rotation="0 90 90" radius="0.01" height="0.1" color="green" shadow></a-cylinder>                                                                                            
+          <a-cylinder position="-4 1.73 -1.79" rotation="0 90 90" radius="0.03" height="0.1" color="grey" shadow></a-cylinder>
