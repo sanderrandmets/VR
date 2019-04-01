@@ -1,4 +1,0 @@
- <a-box position="-1.9 1.5 -2.09" rotation="0 0 0" src="https://cdn.glitch.com/65260af5-8693-4103-8b81-01990a524a78%2FWindows-10-desktop-640x353.jpg?1553684949475"d depth="0.05" width="1" height="0.7"></a-box>
-        <a-box position="-1.9 1.5 -2.1" rotation="0 0 0" color="black" depth="0.06" width="1.1" height="0.8"></a-box>
-        <a-cylinder position="-1.9 1.2 -2.2" radius="0.08" height="0.7" color="black" shadow></a-cylinder>
-         <a-cylinder position="-1.9 0.8 -2.2" radius="0.3" height="0.1" color="black" shadow></a-cylinder>            
