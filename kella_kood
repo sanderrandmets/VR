@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ECS - A-Frame School</title>
-    <meta name="description" content="ECS - A-Frame School">
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
-  </head>
-  <body>
-    <a-scene>
-      <a-entity position="0 0 -3"rotation="90 0 0">
-        <a-cylinder position="0 0.5 -3" rotation="0 0 0" height="0.1" radius="1" color="#F6E3CE"></a-cylinder>
-        <a-cylinder position="0 0.59 -3" rotation="0 0 0" height="0.08" radius="1" open-ended="true" material="side:double" color="#F6E3CE"></a-cylinder>
-        <a-cylinder position="0 0.59 -3" rotation="0 0 0" height="0.08" radius="0.9" open-ended="true" material="side:double" color="#F6E3CE"></a-cylinder>
-        <a-ring position="0 0.627 -3" rotation="90 0 0" radius-inner="0.9" radius-outer="1" material="side:double" color="#F6E3CE"></a-ring>
-        <a-circle position="0 0.56 -3" rotation="90 0 0" radius="0.9" material="side:double" src="https://cdn.glitch.com/679acb5a-0d6e-4d15-8220-9865f4c9bdfd%2Fv-06-512.png?1553503324552"></a-circle>
-      </a-entity>
-      <a-sky color="#0000FF"></a-sky>
-    </a-scene>
-  </body>
-</html>
+
+<a-entity id="kell" position="0 0 -3"rotation="90 0 0">
+  <a-cylinder position="0 0.5 -3" rotation="0 0 0" height="0.1" radius="1" color="#F6E3CE"></a-cylinder>
+  <a-cylinder position="0 0.59 -3" rotation="0 0 0" height="0.08" radius="1" open-ended="true" material="side:double" color="#F6E3CE"></a-cylinder>
+  <a-cylinder position="0 0.59 -3" rotation="0 0 0" height="0.08" radius="0.9" open-ended="true" material="side:double" color="#F6E3CE"></a-cylinder>
+  <a-ring position="0 0.627 -3" rotation="90 0 0" radius-inner="0.9" radius-outer="1" material="side:double" color="#F6E3CE"></a-ring>
+  <a-circle position="0 0.56 -3" rotation="90 0 0" radius="0.9" material="side:double" src="https://cdn.glitch.com/679acb5a-0d6e-4d15-8220-9865f4c9bdfd%2Fv-06-512.png?1553503324552"></a-circle>
+</a-entity>
+ 
