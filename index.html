@@ -5,9 +5,17 @@
     <title>Hello, WebVR! • A-Frame</title>
     <meta name="description" content="Hello, WebVR! • A-Frame">
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
   </head>
   <body>
     <a-scene>
+      <!--õpetaja -->
+       <assets>
+        <a-asset-item id="opetaja" response-type="arraybuffer" src="https://cdn.glitch.com/00861707-f89b-4816-8819-d983d1f1f901%2Frp_mei_posed_001_100k.glb?1554727212092">
+         </a-asset-item>
+        </assets>
+         <a-entity gltf-model="#opetaja" position="-6.278 -0.821 0.911" rotation="180 90 180" scale="0.03 0.03 0.03">
+         </a-entity>
       <!-- 1. pink -->
     <a-entity position="-10.8 0.191 6.5" id="pink1">
         <a-box position="-0 1 0" rotation="0 0 0" src="https://cdn.glitch.com/5d420f1b-e149-442b-8fe0-c1e0e2f88f28%2Fimage.png?1552900752973" depth="1.5" width="3.5" height="0.1"></a-box>
