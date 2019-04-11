@@ -1,0 +1,4 @@
+ <!-- 1. hiir -->
+  <a-camera position="-4.6 2 12.063">
+    <a-cursor color="#00ACBA" position="0 0 -1"></a-cursor>
+  </a-camera>
