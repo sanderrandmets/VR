@@ -6,9 +6,29 @@
     <meta name="description" content="Hello, WebVR! • A-Frame">
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
   </head>
   <body>
     <a-scene>
+       <!--kaamera -->
+      <a-entity id="cameraRig" position="0 0 0">
+				<a-camera id="head"></a-camera>
+				<a-entity id="rhand" 
+					mixin="touch" 
+					vive-controls="hand: right" 
+					teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head;"
+					oculus-touch-controls="hand: right"
+					windows-motion-controls="hand: right">
+				</a-entity>
+				<a-entity id="lhand"
+					visible="true"
+					mixin="touch" 
+					vive-controls="hand: left"
+					oculus-touch-controls="hand: left"
+					windows-motion-controls="hand: left"
+					teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head;">
+				</a-entity>
+			</a-entity>
       <!--õpetaja -->
        <assets>
         <a-asset-item id="opetaja" response-type="arraybuffer" src="https://cdn.glitch.com/00861707-f89b-4816-8819-d983d1f1f901%2Frp_mei_posed_001_100k.glb?1554727212092">
