@@ -1,0 +1,18 @@
+<a-scene background="color: #00ccff">
+      <a-plane position="0.9 1.1 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"  ></a-plane>
+        <a-plane position="0.9 1.11 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"  ></a-plane>
+        <a-plane position="0.9 1.12 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8" ></a-plane>
+        <a-plane position="0.9 1.13 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8" ></a-plane>
+        <a-plane position="0.9 1.14 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.15 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.16 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.17 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.18 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.19 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.2 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.21 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.22 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.23 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8"></a-plane>
+        <a-plane position="0.9 1.24 -3" rotation="-90 0 0" width="1" height="1" color="#D8D8D8" src="https://cdn.glitch.com/11c14940-6fad-48f8-ab8f-e168a9b742f6%2Fsadafdsgsf.jpg?1554968906693" ></a-plane                  
+        
+    </a-scene>
